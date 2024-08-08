@@ -1,0 +1,59 @@
+@media screen and (max-width :700px){
+
+   #login-form{
+    padding: 30px;
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    left: -190;
+}
+
+ #signUp-form{
+    padding: 30px;
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    left: -90;
+}
+
+#nav-links {
+    font-size: 15px;
+    display: none;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#menu-icon{
+    display: block;
+}
+#nav-menu{
+    width: 100%;
+    display: block;
+
+}
+.contact input{
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+.contact #btn{
+   
+    margin-left: 30px;
+
+}
+
+.contact{
+    height: 160vh;
+}
+
+.NoticeTable{
+    
+    margin-left:1% ;
+    background-color:transparent;
+}
+
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="index.js"></script>
+	<title>This is Registation From</title>
+	<link rel="stylesheet" type="text/css" href="Astyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+   <div class="container">
+
+
+   	<div class="row">
+    	<form action="style.php" method="POST">
+				<div class="col" style="color: #5495BD; margin-bottom: -140px; border: 50px solid white;"><h2><b>স্টুডেন্ট এডমিশন ফরম</b></h2></div></div><br><br>
+        
+   		<figure class="input-img">
+   			<input type="img" id="img" class ="img" name="img"  placeholder="ছবি প্রবেশ করান">
+   			    <input class="btn" style="float: right; " type="file"
+				   id="avatar" name="avatar"
+				   accept="image/png, image/jpeg">
+   	
+   				
+   		</figure>
+        <div class="row">
+					<div class="col col-sm-2"  style="padding-top: 20px; float: right;">
+						<label>সেশন</label>
+			          <select class="form-control" name="session">
+			             	<option>২০১৯</option>
+			             	<option>২০২০</option>
+			             	<option>২০২১</option>
+			             	<option>২০২২</option>
+			             	<option>২০২৩</option>
+			             	<option>২০২৪</option>
+			             	<option>২০২৫</option>
+			             	<option>২০২৬</option>
+			             	<option>২০২৭</option>
+			             	<option>২০২৮</option>
+			             	<option>২০২৯</option>
+			             	<option>২০৩০</option>
+			             	<option>২০৩১</option>
+
+			             </select>
+				</div>
+				<div></div>
+
+   		<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8"  style="padding-top: 20px;">
+						<input class="form-control" type="text" name="st_b_name" required placeholder="ছাত্র/ছাত্রীর বাংলায় ">
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="text" name="st_e_name" required placeholder="নামঃ(ইংরেজিতে)">
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="text" name="FN_bangla" required placeholder="পিতার নাম বাংলায়">
+					</div>
+			</div><br>
+			<div class="row">
+				<div class="col col-sm-10 col-lg-8 col-md-8">
+					<input class="form-control" type="text" name="MN_ bangla" placeholder="জাতীয় পরিচয় পত্র নংঃ(পিতার)">
+				</div></div><br>
+
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8 ">
+						<input class="form-control" type="text" name="MN_enghish"required placeholder="বাংলায় মাতার নাম বাংলায়">
+					</div></div><br>
+					
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="text" name="MN_ bangla" placeholder="জাতীয় পরিচয় পত্র নংঃ(মাতার)">
+				    </div>
+				</div><br>
+
+				<div class="row">
+
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						
+						<input class="form-control" type="Email" name="email" placeholder="ইমেইল.....@gmail.com">
+					</div>
+				</div><br>
+
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="number/text" required name="d_f_b_number" placeholder="জন্ম সনদ নংঃ">
+				    </div>
+				</div><br>
+
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="Date" required name="date_of_birth" placeholder="জন্ম তারিখ">
+				    </div></div><br>
+				    <div class="row">
+				        <div class="col col-sm-10 col-lg-8 col-md-8">
+						  <input class="form-control" type="number/password" required name="e-roll" placeholder="পূর্বের শ্রেণী রোল">
+					    </div>
+				    </div><br>
+
+                      <div class="row">
+                       <div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" required type="number/password" name="e_r_roll" placeholder="পূর্বের শ্রেণী রেজিস্ট্রেশন নং(যদি থাকে)">
+				       </div>
+				     </div><br>
+
+                     <div class="row">
+                       <div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="number/password" name="e_n_school" placeholder="পূর্বের বিদ্যালয়ের নাম ">
+				       </div>
+				     </div><br>
+
+				      <div class="row">
+                       <div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="text" name="t_c" placeholder="পূর্বের বিদ্যালয়ের টি সি ">
+				       </div>
+				     </div><br>
+				      <div class="row">
+                       <div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control"  type="text" name="e_sum" placeholder="পূর্বের শ্রেণী ফলাফল">
+				       </div>
+				     </div><br>
+
+
+
+
+			
+
+
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="number/password" name="roll" placeholder="মাতার/পিতার মোবাইল নাম্বারঃ">
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<input class="form-control" type="number/password" name="roll" placeholder="জরুড়ি প্রয়োজনে পাওয়া যাবে এমন কোনো বযাক্তির নাম্বার">
+					</div>
+				</div><br>
+				 <div class="row">
+					<div class="col col-sm-10 col-lg-8 col-md-8">
+						<label>যে শ্রেণীতে ভর্তি হতে ইচ্ছুক</label>
+						<select class="form-control" type="number/text" name="class" placeholder="শ্রেণীঃ">
+                              <option>৬ষ্ঠ</option>
+                              <option>৭ম</option>
+                              <option>৮ম</option>
+                              <option>৯ম</option>
+                              <option>১০ম</option>
+                              <option>্ভোকেশনাল ৯ম</option>
+                              <option>্ভোকেশনাল ১০ম</option>
+						</select>
+				      </div>
+                        <br>
+                 <div class="row">
+                 	<div class="col col-sm-10" >
+                 		 <button name="button" class="submit-btn" type="submit"><b><h2>জমা</h2></b></button>
+
+                 	</div>
+   		
+   	</form>
+   	
+   </div>
+   <label for="avatar">Choose a profile picture:</label>
+
+
+   <script>
+   	
+   	function function_name() {
+     	document.getElementById('img').innerHTML = ()	
+   		
+   	}
+   </script>
+</body>
+</html>
